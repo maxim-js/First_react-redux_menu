@@ -1,0 +1,35 @@
+.CardTitle {
+    font-size: 1.3em;
+    padding: 5%;
+}
+
+.CardSubtitle {
+    padding: 3% 3% 3% 0%;
+    font-size: 1.1em;
+}
+.Card {
+    margin: 1%
+}
+.project_title {
+    padding: 2% 0 2% 5%;
+}
+.scale {
+    &_main {
+        display: flex;
+        height: 5px;
+        margin-bottom: 5%;
+    }
+    &_first {
+        max-width: 100%;
+        flex: 50;
+        background-color: rgb(79, 148, 34);
+    }
+    &_second {
+        max-width: 100%;
+        flex: 50;
+        background-color: rgb(72, 202, 72);
+    }
+}
+.resources {
+    padding-bottom: 5%;
+}
